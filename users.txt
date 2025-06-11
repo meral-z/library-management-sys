@@ -1,0 +1,4 @@
+Betty,56563
+Charles,25611
+GenAlpha,16125
+Meral,8348

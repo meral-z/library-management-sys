@@ -1,0 +1,35 @@
+Using three files
+
+1. users // username, password
+2. Books // bname , iban 
+3. Issued books: Iban, username, Issued date, due date // both unique from the above to database. Links these two.
+
+
+Sample users:
+Username: Betty
+password: Riverdaleistheworstshowtoexist123
+
+Username: Charles
+password: nothingjustanInch1dent
+
+Username: GenAlpha
+password: skibbidiToiletri33
+
+Make a new account:
+Username: Carlos
+password: Smoooooth0pperator
+
+FOR ADMIN:
+Username = admin
+Password = admin123
+
+Each person can only be issued 3 books max by the Admin
+
+sample input:
+Issue book: To Kill a Mockingbird
+Issuer name: Charles
+.
+.
+.
+
+Hamza Yoshida Is the Best Kindly issue
