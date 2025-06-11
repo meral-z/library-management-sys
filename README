@@ -1,10 +1,13 @@
-Using three files
+This is a project I made, using entirely C++ to implement a library management system using classes, and passwords are secured using a hashing algorithm. This is a terminal based application.
+
+
+The program uses three files
 
 1. users // username, password
 2. Books // bname , iban 
 3. Issued books: Iban, username, Issued date, due date // both unique from the above to database. Links these two.
 
-
+Here is some sample input to test it out:
 Sample users:
 Username: Betty
 password: Riverdaleistheworstshowtoexist123
@@ -28,8 +31,4 @@ Each person can only be issued 3 books max by the Admin
 sample input:
 Issue book: To Kill a Mockingbird
 Issuer name: Charles
-.
-.
-.
 
-Hamza Yoshida Is the Best Kindly issue
