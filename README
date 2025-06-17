@@ -1,42 +1,39 @@
-# 📚 Library Management System (C++)
+📚 Library Management System (C++)
 
-A terminal-based Library Management System built entirely in **C++**, using **object-oriented programming** and **file handling**. This project includes user authentication with **password hashing**, **role-based access** (Admin/User), and **persistent data storage** via text files.
+A terminal-based Library Management System built entirely in C++, using object-oriented programming and file handling. This project includes user authentication with password hashing, role-based access (Admin/User), and persistent data storage via text files.
 
----
+🚀 Features
 
-## 🚀 Features
+User Registration & Login (hashed passwords for basic security)
 
-- **User Registration & Login** (hashed passwords for basic security)  
-- **Admin Panel**: Add books, issue/return books, manage users  
-- **User Panel**: View and request books (max 3 issued at a time)  
-- **Persistent Storage** using file I/O (`users.txt`, `books.txt`, `issued_books.txt`)
+Admin Panel: Add books, issue/return books, manage users
 
----
+User Panel: View and request books (max 3 issued at a time)
 
-## 📂 File Structure
+Persistent Storage using file I/O (users.txt, books.txt, issued_books.txt)
 
-- `users.txt`: Stores usernames and hashed passwords  
-- `books.txt`: Stores book titles and ISBNs  
-- `issued_books.txt`: Stores issued records with book ISBN, username, issue date, and due date  
+📂 File Structure
 
----
+users.txt: Stores usernames and hashed passwords
 
-## 🧪 Sample User Accounts
+books.txt: Stores book titles and ISBNs
 
-Username: Betty Password: Riverdaleistheworstshowtoexist123
-Username: Charles Password: nothingjustanInch1dent
-Username: GenAlpha Password: skibbidiToiletri33
-Username: admin Password: admin123
+issued_books.txt: Stores issued records with book ISBN, username, issue date, and due date
+
+🧪 Sample User Accounts
+
+Username: Betty | Password: Riverdaleistheworstshowtoexist123
+Username: Charles | Password: nothingjustanInch1dent
+Username: GenAlpha | Password: skibbidiToiletri33
+Username: admin | Password: admin123
 
 You can also register a new user:
-Username: Carlos Password: Smoooooth0pperator
+Username: Carlos | Password: Smoooooth0pperator
 
-## 📌 Example Usage
+📌 Example Usage
 
 Log in as admin
 Add Book: "To Kill a Mockingbird", ISBN: 9780061120084
 Issue Book: "To Kill a Mockingbird" to user "Charles"
 Max books per user: 3
-
-
 
